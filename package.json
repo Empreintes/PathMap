@@ -7,7 +7,7 @@
     "nodejs"
   ],
   "author": "Julien Appéré - @empreintes",
-  "repository": "https://github.com/Empreintes/pathmath",
+  "repository": "https://github.com/Empreintes/PathMap",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
