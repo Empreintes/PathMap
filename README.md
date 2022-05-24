@@ -43,9 +43,8 @@ released under the MIT license.
 - **Julien Appéré <@empreintes>** -
   [Github](https://github.com/empreintes) | [Twitter](https://twitter.com/empreintes)
 
-
 ## Acknowledgments
 
 - This is a side project of a side project of a side project (for real)
 - Use in production only if you know what you do.
-- Full synchrone
+- Extend Map Object for personal choice. 
