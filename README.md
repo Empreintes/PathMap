@@ -10,7 +10,7 @@ This script target nodejs environment
     yarn add @empreintes/pathmath
 
 ---
-    const { PathMap } = require("@empreintes/PathMap")
+    const { PathMap } = require("@empreintes/pathmap")
     const data = {
       data: [
         {
