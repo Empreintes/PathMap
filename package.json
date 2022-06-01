@@ -1,6 +1,6 @@
 {
   "name": "@empreintes/pathmap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Give a dotted path, return the value somewhere in a json object",
   "type": "commonjs",
   "keywords": [
@@ -21,7 +21,7 @@
     "prepare": "npm run build && ts-node publish-pkg.ts"
   },
   "devDependencies": {
-    "@empreintes/content-provider": "^0.0.5",
+    "@empreintes/content-provider": "^0.0.6",
     "@types/chai": "^4.2.21",
     "@types/mocha": "latest",
     "@types/node": "^16.10.3",

@@ -6,8 +6,7 @@
     "target": "es2015",
     "sourceMap": false,
     "declaration": true,
-    "declarationDir":"./dist/@types" ,
-    "declarationMap": true,
+    "removeComments": false,
     "outDir": "dist/"
   },
   "include": [
