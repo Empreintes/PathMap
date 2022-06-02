@@ -19,6 +19,7 @@ export class PathMap extends Map {
    */
   path(dot_path: string): unknown {
     let out = null
+    if (typeof dot_path !== "string") return null
     dot_path.split(".").forEach((rawkey_name) => {
       const { key_name, index_value } = [
         ...rawkey_name.matchAll(this.regex)

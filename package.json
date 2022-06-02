@@ -1,6 +1,6 @@
 {
   "name": "@empreintes/pathmap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Give a dotted path, return the value somewhere in a json object",
   "type": "commonjs",
   "keywords": [
