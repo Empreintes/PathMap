@@ -43,9 +43,10 @@ export class PathMap extends Map {
           ]}`
         )
 
-      out = Array.isArray(out[key_name])
-        ? out[key_name][index_value]
-        : out[key_name]
+      out =
+        Array.isArray(out[key_name]) && index_value !== undefined
+          ? out[key_name][index_value]
+          : out[key_name]
     })
     return out
   }
