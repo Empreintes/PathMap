@@ -18,7 +18,9 @@
     "test": "npx mocha",
     "prettier": "prettier --write '**/*.ts'",
     "build": "tsc",
-    "prepare": "npm run build && ts-node publish-pkg.ts"
+    "prepare": "npm run build && ts-node publish-pkg.ts",
+    "migration:status": "ts-node src/migration-status.ts security",
+    "migration:check": "ts-node src/migration-status.ts check"
   },
   "devDependencies": {
     "@empreintes/content-provider": "^0.0.6",
@@ -29,7 +31,7 @@
     "@typescript-eslint/parser": "^4.30.0",
     "chai": "^4.3.4",
     "eslint": "^7.32.0",
-    "mocha": "^9.1.1",
+    "mocha": "^11.7.4",
     "prettier": "^2.3.2",
     "ts-node": "^10.2.1",
     "typescript": "^4.3.5"
