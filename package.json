@@ -19,8 +19,8 @@
     "prettier": "prettier --write '**/*.ts'",
     "build": "tsc",
     "prepare": "npm run build && ts-node publish-pkg.ts",
-    "migration:status": "ts-node src/migration-status.ts security",
-    "migration:check": "ts-node src/migration-status.ts check"
+    "migration:status": "echo '---\nRemoved on 0.1.0\nCheck CHANGELOG.md \n---'",
+    "migration:check": "npm run migration:status"
   },
   "devDependencies": {
     "@empreintes/content-provider": "^0.0.6",

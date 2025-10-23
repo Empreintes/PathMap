@@ -39,24 +39,7 @@ Version 0.0.4 includes important security improvements:
 - 🛡️ **Array bounds checking** - Prevents out-of-bounds access
 - 🔍 **Input validation** - Validates path segments before processing
 
-Check your security status:
-```bash
-npm run migration:status
-```
-
 See [SECURITY.md](SECURITY.md) for detailed security information and best practices.
-
-## Migration Status
-
-Check migration compatibility when upgrading:
-```bash
-npm run migration:check 0.0.4
-```
-
-This will show:
-- Breaking changes between versions
-- Security improvements
-- Migration steps required
 
 ## Licence
 
